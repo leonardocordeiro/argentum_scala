@@ -1,9 +1,10 @@
 package br.com.caelum.argentum
 
 import java.util.Calendar
+import java.text.SimpleDateFormat
 
 object TesteCandlestickFactory extends App {
-  val hoje = Calendar.getInstance;
+  var hoje = Calendar.getInstance;
   
   val negociacao = new Negociacao(40.5, 100, hoje)
   val negociacao2 = new Negociacao(45.0, 100, hoje)
