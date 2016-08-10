@@ -4,6 +4,7 @@
 .classpath
 .project
 .settings/org.eclipse.jdt.core.prefs
+.cache-main
 
 # sbt specific
 .cache
